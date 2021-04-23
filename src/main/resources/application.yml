@@ -1,0 +1,14 @@
+web-messages:
+  service:
+    ping-service:
+      status-ok: "I'm alive"
+  repository:
+    apis:
+      kafka-uri:
+spring:
+  redis:
+    host: redis
+    port: 6379
+    timeout: 60
+    cacheExpirations:
+      myControlledCache: 180
